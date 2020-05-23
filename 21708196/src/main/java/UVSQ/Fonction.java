@@ -1,13 +1,20 @@
 package UVSQ;
-
+/**
+ *enum Fonction pour savoire le tyoe .
+ * @author HAMMOUCHE Koussaila.
+ */
 public enum Fonction {
-
-	directeuur (),
+	/**
+	 *le type directeuur.
+	 */
+     directeuur(),
+     /**
+ 	 *le type charger.
+ 	 */
 	charger(),
-	responsable ();
-	  //private String name = null;
-	
-		  }
-		   
-
+	/**
+	 *le type responsable.
+	 */
+	responsable();
+}
 
